@@ -60,26 +60,20 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 			</Item>
-			<Item Name="mWmotor_init.vi" Type="VI" URL="../SubVI/mWmotor_init.vi"/>
 			<Item Name="mWADC_init.vi" Type="VI" URL="../SubVI/mWADC_init.vi"/>
-			<Item Name="mWmotor_get_move_Setp_limits.vi" Type="VI" URL="../SubVI/mWmotor_get_move_Setp_limits.vi"/>
 			<Item Name="mWmotor_rev_to_freq.vi" Type="VI" URL="../SubVI/mWmotor_rev_to_freq.vi"/>
-			<Item Name="mWmotor_get_ALARM.vi" Type="VI" URL="../SubVI/mWmotor_get_ALARM.vi"/>
 			<Item Name="mWADC_AVG_out.vi" Type="VI" URL="../SubVI/mWADC_AVG_out.vi"/>
 			<Item Name="mW_create_file.vi" Type="VI" URL="../SubVI/mW_create_file.vi"/>
 			<Item Name="mW_store_DATA.vi" Type="VI" URL="../SubVI/mW_store_DATA.vi"/>
-			<Item Name="mWmotor_move.vi" Type="VI" URL="../SubVI/mWmotor_move.vi"/>
 			<Item Name="mWmotor_set_Count.vi" Type="VI" URL="../SubVI/mWmotor_set_Count.vi"/>
 			<Item Name="mWmotor_set_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_set_motor_para.vi"/>
 			<Item Name="mWmotor_get_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_get_motor_para.vi"/>
 			<Item Name="mWmotor_write_fitparameter.vi" Type="VI" URL="../SubVI/mWmotor_write_fitparameter.vi"/>
-			<Item Name="mWmotor_move_to absolute.vi" Type="VI" URL="../SubVI/mWmotor_move_to absolute.vi"/>
 			<Item Name="mWADC_FreqToRev.vi" Type="VI" URL="../SubVI/mWADC_FreqToRev.vi"/>
 			<Item Name="mWmotor_Reset_Alarm.vi" Type="VI" URL="../SubVI/mWmotor_Reset_Alarm.vi"/>
 			<Item Name="mW_EIP_Read.vi" Type="VI" URL="../SubVI/mW_EIP_Read.vi"/>
 			<Item Name="Open thermocouple VI 2.vi" Type="VI" URL="../SubVI/Open thermocouple VI 2.vi"/>
 			<Item Name="mWADC_Read.vi" Type="VI" URL="../SubVI/mWADC_Read.vi"/>
-			<Item Name="mWmotor_STOP.vi" Type="VI" URL="../SubVI/mWmotor_STOP.vi"/>
 			<Item Name="Close thermocouple VI.vi" Type="VI" URL="../SubVI/Close thermocouple VI.vi"/>
 			<Item Name="MccHat_Global.vi" Type="VI" URL="../SubVI/MccHat/MccHat/MccHat_Global.vi"/>
 			<Item Name="adcTOrev.vi" Type="VI" URL="../SubVI/adcTOrev.vi"/>
