@@ -70,7 +70,6 @@
 			<Item Name="mWmotor_get_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_get_motor_para.vi"/>
 			<Item Name="mWmotor_write_fitparameter.vi" Type="VI" URL="../SubVI/mWmotor_write_fitparameter.vi"/>
 			<Item Name="mWADC_FreqToRev.vi" Type="VI" URL="../SubVI/mWADC_FreqToRev.vi"/>
-			<Item Name="mWmotor_Reset_Alarm.vi" Type="VI" URL="../SubVI/mWmotor_Reset_Alarm.vi"/>
 			<Item Name="mW_EIP_Read.vi" Type="VI" URL="../SubVI/mW_EIP_Read.vi"/>
 			<Item Name="Open thermocouple VI 2.vi" Type="VI" URL="../SubVI/Open thermocouple VI 2.vi"/>
 			<Item Name="mWADC_Read.vi" Type="VI" URL="../SubVI/mWADC_Read.vi"/>
