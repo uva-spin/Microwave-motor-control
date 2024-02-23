@@ -59,6 +59,7 @@
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 			</Item>
 			<Item Name="mWADC_init.vi" Type="VI" URL="../SubVI/mWADC_init.vi"/>
 			<Item Name="mWmotor_rev_to_freq.vi" Type="VI" URL="../SubVI/mWmotor_rev_to_freq.vi"/>
@@ -81,6 +82,8 @@
 			<Item Name="Create_EIP_waveform.vi" Type="VI" URL="../SubVI/Create_EIP_waveform.vi"/>
 			<Item Name="Controller decision.ctl" Type="VI" URL="../SubVI/Automatic mode/Controller decision.ctl"/>
 			<Item Name="Get_nmr DATA.vi" Type="VI" URL="../SubVI/Automation/Get_nmr DATA.vi"/>
+			<Item Name="tcp_client_microwave.vi" Type="VI" URL="../SubVI/TCP_IP_NMR/tcp_client_microwave.vi"/>
+			<Item Name="NMR_tcp_client.vi" Type="VI" URL="../SubVI/TCP_IP_NMR/NMR_tcp_client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
