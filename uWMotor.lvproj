@@ -15,6 +15,7 @@
 		<Item Name="Automation.lvclass" Type="LVClass" URL="../SubVI/Automation/Automation.lvclass"/>
 		<Item Name="Serial.lvclass" Type="LVClass" URL="../SubVI/Motor Controller/Motor Serial class/Serial.lvclass"/>
 		<Item Name="Motor.lvclass" Type="LVClass" URL="../SubVI/Motor Controller/Motor Class/Motor.lvclass"/>
+		<Item Name="Signaller.lvclass" Type="LVClass" URL="../SubVI/Simulation/Signaller/Signaller.lvclass"/>
 		<Item Name="test pol.vi" Type="VI" URL="../test pol.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -58,6 +59,13 @@
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="Create Timing Source.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Create Timing Source.vi"/>
+				<Item Name="Create_1kHz_TSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/_suppVIs/Create_1kHz_TSource.vi"/>
+				<Item Name="Create_1MHz_TSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/_suppVIs/Create_1MHz_TSource.vi"/>
+				<Item Name="Create_SoftwareTrigger_TSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/_suppVIs/Create_SoftwareTrigger_TSource.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 			</Item>
 			<Item Name="mWADC_init.vi" Type="VI" URL="../SubVI/mWADC_init.vi"/>
 			<Item Name="mWmotor_rev_to_freq.vi" Type="VI" URL="../SubVI/mWmotor_rev_to_freq.vi"/>
@@ -82,6 +90,26 @@
 			<Item Name="Get_nmr DATA.vi" Type="VI" URL="../SubVI/Automation/Get_nmr DATA.vi"/>
 			<Item Name="tcp_client_microwave.vi" Type="VI" URL="../SubVI/TCP_IP_NMR/tcp_client_microwave.vi"/>
 			<Item Name="NMR_tcp_client.vi" Type="VI" URL="../SubVI/TCP_IP_NMR/NMR_tcp_client.vi"/>
+			<Item Name="simulation.vi" Type="VI" URL="../SubVI/Simulation/simulation.vi"/>
+			<Item Name="Fit Parameters.ctl" Type="VI" URL="../SubVI/Simulation/Fit Parameters.ctl"/>
+			<Item Name="Physical Constants.ctl" Type="VI" URL="../SubVI/Simulation/Physical Constants.ctl"/>
+			<Item Name="Internal Parameters.ctl" Type="VI" URL="../SubVI/Simulation/Internal Parameters.ctl"/>
+			<Item Name="System parameters.ctl" Type="VI" URL="../SubVI/Simulation/System parameters.ctl"/>
+			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Time step.vi" Type="VI" URL="../SubVI/Simulation/Time step.vi"/>
+			<Item Name="Calculate alpha and beta.vi" Type="VI" URL="../SubVI/Simulation/Calculate alpha and beta.vi"/>
+			<Item Name="Set Temperature.vi" Type="VI" URL="../SubVI/Simulation/Set Temperature.vi"/>
+			<Item Name="Scaled noise.vi" Type="VI" URL="../SubVI/Simulation/Scaled noise.vi"/>
+			<Item Name="Static noise.vi" Type="VI" URL="../SubVI/Simulation/Static noise.vi"/>
+			<Item Name="Calculate time scaling parameters.vi" Type="VI" URL="../SubVI/Simulation/Calculate time scaling parameters.vi"/>
+			<Item Name="Find optimal frequency.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Find optimal frequency.vi"/>
+			<Item Name="Calculate steady state.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Calculate steady state.vi"/>
+			<Item Name="LabVIEW time to Unix.vi" Type="VI" URL="../SubVI/Simulation/LabVIEW time to Unix.vi"/>
+			<Item Name="Fit parameters chooser.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Fit parameters chooser.vi"/>
+			<Item Name="Read fit presets.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Read fit presets.vi"/>
+			<Item Name="Write fit presets.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Write fit presets.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
