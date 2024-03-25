@@ -72,7 +72,6 @@
 			<Item Name="mWmotor_rev_to_freq.vi" Type="VI" URL="../SubVI/mWmotor_rev_to_freq.vi"/>
 			<Item Name="mWADC_AVG_out.vi" Type="VI" URL="../SubVI/mWADC_AVG_out.vi"/>
 			<Item Name="mW_create_file.vi" Type="VI" URL="../SubVI/mW_create_file.vi"/>
-			<Item Name="mW_store_DATA.vi" Type="VI" URL="../SubVI/mW_store_DATA.vi"/>
 			<Item Name="mWmotor_set_Count.vi" Type="VI" URL="../SubVI/mWmotor_set_Count.vi"/>
 			<Item Name="mWmotor_set_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_set_motor_para.vi"/>
 			<Item Name="mWmotor_get_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_get_motor_para.vi"/>
@@ -111,6 +110,7 @@
 			<Item Name="Fit parameters chooser.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Fit parameters chooser.vi"/>
 			<Item Name="Read fit presets.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Read fit presets.vi"/>
 			<Item Name="Write fit presets.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Write fit presets.vi"/>
+			<Item Name="mW_store_DATA.vi" Type="VI" URL="../SubVI/mW_store_DATA.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
