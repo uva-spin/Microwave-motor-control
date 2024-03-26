@@ -74,7 +74,6 @@
 			<Item Name="mW_create_file.vi" Type="VI" URL="../SubVI/mW_create_file.vi"/>
 			<Item Name="mWmotor_set_Count.vi" Type="VI" URL="../SubVI/mWmotor_set_Count.vi"/>
 			<Item Name="mWmotor_set_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_set_motor_para.vi"/>
-			<Item Name="mWmotor_get_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_get_motor_para.vi"/>
 			<Item Name="mWmotor_write_fitparameter.vi" Type="VI" URL="../SubVI/mWmotor_write_fitparameter.vi"/>
 			<Item Name="mWADC_FreqToRev.vi" Type="VI" URL="../SubVI/mWADC_FreqToRev.vi"/>
 			<Item Name="mW_EIP_Read.vi" Type="VI" URL="../SubVI/mW_EIP_Read.vi"/>
