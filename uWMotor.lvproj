@@ -17,6 +17,7 @@
 		<Item Name="Motor.lvclass" Type="LVClass" URL="../SubVI/Motor Controller/Motor Class/Motor.lvclass"/>
 		<Item Name="Signaller.lvclass" Type="LVClass" URL="../SubVI/Simulation/Signaller/Signaller.lvclass"/>
 		<Item Name="test pol.vi" Type="VI" URL="../test pol.vi"/>
+		<Item Name="mW_CheckFreq.vi" Type="VI" URL="../SubVI/mW_CheckFreq.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -67,6 +68,7 @@
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="mWADC_init.vi" Type="VI" URL="../SubVI/mWADC_init.vi"/>
 			<Item Name="mWADC_AVG_out.vi" Type="VI" URL="../SubVI/mWADC_AVG_out.vi"/>
@@ -74,7 +76,6 @@
 			<Item Name="mWmotor_set_Count.vi" Type="VI" URL="../SubVI/mWmotor_set_Count.vi"/>
 			<Item Name="mWmotor_set_motor_para.vi" Type="VI" URL="../SubVI/mWmotor_set_motor_para.vi"/>
 			<Item Name="mWmotor_write_fitparameter.vi" Type="VI" URL="../SubVI/mWmotor_write_fitparameter.vi"/>
-			<Item Name="mWADC_FreqToRev.vi" Type="VI" URL="../SubVI/mWADC_FreqToRev.vi"/>
 			<Item Name="mW_EIP_Read.vi" Type="VI" URL="../SubVI/mW_EIP_Read.vi"/>
 			<Item Name="Open thermocouple VI 2.vi" Type="VI" URL="../SubVI/Open thermocouple VI 2.vi"/>
 			<Item Name="mWADC_Read.vi" Type="VI" URL="../SubVI/mWADC_Read.vi"/>
@@ -109,6 +110,8 @@
 			<Item Name="Read fit presets.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Read fit presets.vi"/>
 			<Item Name="Write fit presets.vi" Type="VI" URL="../SubVI/Simulation/Fit parameters chooser/Write fit presets.vi"/>
 			<Item Name="mW_store_DATA.vi" Type="VI" URL="../SubVI/mW_store_DATA.vi"/>
+			<Item Name="conv_Pos_Fre.vi" Type="VI" URL="../SubVI/FreqPos/conv_Pos_Fre.vi"/>
+			<Item Name="conv_FreQ_Pos.vi" Type="VI" URL="../SubVI/FreqPos/conv_FreQ_Pos.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
