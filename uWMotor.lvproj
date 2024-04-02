@@ -18,6 +18,7 @@
 		<Item Name="Signaller.lvclass" Type="LVClass" URL="../SubVI/Simulation/Signaller/Signaller.lvclass"/>
 		<Item Name="test pol.vi" Type="VI" URL="../test pol.vi"/>
 		<Item Name="mW_CheckFreq.vi" Type="VI" URL="../SubVI/mW_CheckFreq.vi"/>
+		<Item Name="mW_EIOTemp_check.vi" Type="VI" URL="../SubVI/mW_EIOTemp_check.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -79,10 +80,8 @@
 			<Item Name="mW_EIP_Read.vi" Type="VI" URL="../SubVI/mW_EIP_Read.vi"/>
 			<Item Name="Open thermocouple VI 2.vi" Type="VI" URL="../SubVI/Open thermocouple VI 2.vi"/>
 			<Item Name="mWADC_Read.vi" Type="VI" URL="../SubVI/mWADC_Read.vi"/>
-			<Item Name="Close thermocouple VI.vi" Type="VI" URL="../SubVI/Close thermocouple VI.vi"/>
 			<Item Name="MccHat_Global.vi" Type="VI" URL="../SubVI/MccHat/MccHat/MccHat_Global.vi"/>
 			<Item Name="adcTOrev.vi" Type="VI" URL="../SubVI/adcTOrev.vi"/>
-			<Item Name="mWmotor_Auto_adjust.vi" Type="VI" URL="../SubVI/mWmotor_Auto_adjust.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Create_EIP_waveform.vi" Type="VI" URL="../SubVI/Create_EIP_waveform.vi"/>
 			<Item Name="Controller decision.ctl" Type="VI" URL="../SubVI/Automatic mode/Controller decision.ctl"/>
@@ -112,6 +111,13 @@
 			<Item Name="mW_store_DATA.vi" Type="VI" URL="../SubVI/mW_store_DATA.vi"/>
 			<Item Name="conv_Pos_Fre.vi" Type="VI" URL="../SubVI/FreqPos/conv_Pos_Fre.vi"/>
 			<Item Name="conv_FreQ_Pos.vi" Type="VI" URL="../SubVI/FreqPos/conv_FreQ_Pos.vi"/>
+			<Item Name="MccHat_close.vi" Type="VI" URL="../SubVI/MccHat/MccHat/sub/MccHat_close.vi"/>
+			<Item Name="MccHat_extract_data_02.vi" Type="VI" URL="../SubVI/MccHat/MccHat/sub/MccHat_extract_data_02.vi"/>
+			<Item Name="MccHat_query.vi" Type="VI" URL="../SubVI/MccHat/MccHat/sub/MccHat_query.vi"/>
+			<Item Name="MccHat_read.vi" Type="VI" URL="../SubVI/MccHat/MccHat/sub/MccHat_read.vi"/>
+			<Item Name="MccHat_init.vi" Type="VI" URL="../SubVI/MccHat/MccHat/sub/MccHat_init.vi"/>
+			<Item Name="MccHat_02_Main.vi" Type="VI" URL="../SubVI/MccHat/MccHat/MccHat_02_Main.vi"/>
+			<Item Name="Close thermocouple VI.vi" Type="VI" URL="../SubVI/Close thermocouple VI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
