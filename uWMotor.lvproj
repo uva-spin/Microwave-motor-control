@@ -106,6 +106,9 @@
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Sound Output Clear.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Clear.vi"/>
+				<Item Name="Sound Output Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Info.vi"/>
+				<Item Name="_GetConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_GetConfiguration.vi"/>
+				<Item Name="Sound Output Start.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Start.vi"/>
 			</Item>
 			<Item Name="mWADC_init.vi" Type="VI" URL="../SubVI/mWADC_init.vi"/>
 			<Item Name="mWADC_AVG_out.vi" Type="VI" URL="../SubVI/mWADC_AVG_out.vi"/>
@@ -155,8 +158,8 @@
 			<Item Name="Close thermocouple VI.vi" Type="VI" URL="../SubVI/Close thermocouple VI.vi"/>
 			<Item Name="Load Sound.vi" Type="VI" URL="../SubVI/Warning Sounds/Load Sound.vi"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-			<Item Name="Warning sound pay.vi" Type="VI" URL="../SubVI/Warning Sounds/Warning sound pay.vi"/>
 			<Item Name="Clear sound buffer.vi" Type="VI" URL="../SubVI/Warning Sounds/Clear sound buffer.vi"/>
+			<Item Name="Play Warning.vi" Type="VI" URL="../SubVI/Warning Sounds/Play Warning.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
