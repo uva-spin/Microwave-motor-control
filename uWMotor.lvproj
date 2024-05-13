@@ -109,7 +109,6 @@
 				<Item Name="Sound Output Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Info.vi"/>
 				<Item Name="_GetConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_GetConfiguration.vi"/>
 				<Item Name="Sound Output Start.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Start.vi"/>
-				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 			</Item>
 			<Item Name="mWADC_init.vi" Type="VI" URL="../SubVI/mWADC_init.vi"/>
 			<Item Name="mWADC_AVG_out.vi" Type="VI" URL="../SubVI/mWADC_AVG_out.vi"/>
@@ -122,7 +121,7 @@
 			<Item Name="MccHat_Global.vi" Type="VI" URL="../SubVI/MccHat/MccHat/MccHat_Global.vi"/>
 			<Item Name="adcTOrev.vi" Type="VI" URL="../SubVI/adcTOrev.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Create_EIP_waveform.vi" Type="VI" URL="../SubVI/Create_EIP_waveform.vi"/>
+			<Item Name="Create_EIP_waveform_Channel 2.vi" Type="VI" URL="../SubVI/Create_EIP_waveform_Channel 2.vi"/>
 			<Item Name="Controller decision.ctl" Type="VI" URL="../SubVI/Automatic mode/Controller decision.ctl"/>
 			<Item Name="Get_nmr DATA.vi" Type="VI" URL="../SubVI/Automation/Get_nmr DATA.vi"/>
 			<Item Name="tcp_client_microwave.vi" Type="VI" URL="../SubVI/TCP_IP_NMR/tcp_client_microwave.vi"/>
@@ -161,6 +160,7 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="Clear sound buffer.vi" Type="VI" URL="../SubVI/Warning Sounds/Clear sound buffer.vi"/>
 			<Item Name="Play Warning.vi" Type="VI" URL="../SubVI/Warning Sounds/Play Warning.vi"/>
+			<Item Name="Create_EIP_waveform_Channel 1.vi" Type="VI" URL="../SubVI/Create_EIP_waveform_Channel 1.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
