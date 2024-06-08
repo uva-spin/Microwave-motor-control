@@ -19,6 +19,7 @@
 		<Item Name="test pol.vi" Type="VI" URL="../test pol.vi"/>
 		<Item Name="mW_CheckFreq.vi" Type="VI" URL="../SubVI/mW_CheckFreq.vi"/>
 		<Item Name="mW_EIOTemp_check.vi" Type="VI" URL="../SubVI/mW_EIOTemp_check.vi"/>
+		<Item Name="Beam.lvclass" Type="LVClass" URL="../SubVI/Beam/Beam.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -161,6 +162,9 @@
 			<Item Name="Clear sound buffer.vi" Type="VI" URL="../SubVI/Warning Sounds/Clear sound buffer.vi"/>
 			<Item Name="Play Warning.vi" Type="VI" URL="../SubVI/Warning Sounds/Play Warning.vi"/>
 			<Item Name="Create_EIP_waveform_Channel 1.vi" Type="VI" URL="../SubVI/Create_EIP_waveform_Channel 1.vi"/>
+			<Item Name="mW_create_file To Network.vi" Type="VI" URL="../SubVI/mW_create_file To Network.vi"/>
+			<Item Name="tcp_client_MW.vi" Type="VI" URL="../SubVI/TCP_IP_Spill counter_MW/tcp_client_MW.vi"/>
+			<Item Name="Spillcount_tcp_client.vi" Type="VI" URL="../../Target-Lifter-control/LifterSUBVis/TCP_IP_Spill counter/Spillcount_tcp_client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
