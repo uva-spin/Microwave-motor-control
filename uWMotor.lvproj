@@ -165,6 +165,7 @@
 			<Item Name="mW_create_file To Network.vi" Type="VI" URL="../SubVI/mW_create_file To Network.vi"/>
 			<Item Name="tcp_client_MW.vi" Type="VI" URL="../SubVI/TCP_IP_Spill counter_MW/tcp_client_MW.vi"/>
 			<Item Name="Spillcount_tcp_client_MW.vi" Type="VI" URL="../SubVI/TCP_IP_Spill counter_MW/Spillcount_tcp_client_MW.vi"/>
+			<Item Name="read_G2SEM.vi" Type="VI" URL="../SubVI/read_G2SEM/read_G2SEM.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
