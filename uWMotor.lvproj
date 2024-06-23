@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="mWmotor_Main.vi" Type="VI" URL="../mWmotor_Main.vi"/>
+		<Item Name="mWmotor_Main_calib.vi" Type="VI" URL="../mWmotor_Main_calib.vi"/>
 		<Item Name="Automation.lvclass" Type="LVClass" URL="../SubVI/Automation/Automation.lvclass"/>
 		<Item Name="Serial.lvclass" Type="LVClass" URL="../SubVI/Motor Controller/Motor Serial class/Serial.lvclass"/>
 		<Item Name="Motor.lvclass" Type="LVClass" URL="../SubVI/Motor Controller/Motor Class/Motor.lvclass"/>
@@ -20,6 +20,7 @@
 		<Item Name="test pol.vi" Type="VI" URL="../test pol.vi"/>
 		<Item Name="mW_CheckFreq.vi" Type="VI" URL="../SubVI/mW_CheckFreq.vi"/>
 		<Item Name="mW_EIOTemp_check.vi" Type="VI" URL="../SubVI/mW_EIOTemp_check.vi"/>
+		<Item Name="mWmotor_Main.vi" Type="VI" URL="../mWmotor_Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
